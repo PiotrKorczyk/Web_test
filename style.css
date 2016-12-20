@@ -7,8 +7,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-#ss {
-    width: 100%;
-    height: auto;
-    background-color: #000;
+.main_header {
+    width: 1000px;
+    height: 500px;
+    background-color: black;
 }
+
+.main_header_img {
+    background-image: url(img/header/background_small.jpg);
+    background-size: 500px 500px;
+}
+
+.headerSingleText {}
