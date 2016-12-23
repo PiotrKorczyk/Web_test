@@ -7,15 +7,109 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-.main_header {
-    width: 1000px;
-    height: 500px;
-    background-color: black;
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 100%;
 }
 
-.main_header_img {
-    background-image: url(img/header/background_small.jpg);
-    background-size: 500px 500px;
+.mainHeader {
+    width: 100%;
+    height: calc(100vw*1280.0/1920.0);
+    background: url(img/header/background_small.jpg) no-repeat;
+    background-size: cover;
 }
 
-.headerSingleText {}
+.headerSingleText {
+    padding-top: 60px;
+    margin-left: 11%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+.headerMenu {
+    float: right;
+    padding-top: 60px;
+    margin-right: 11%;
+    font-size: 27px;
+    display: block;
+}
+
+.headerMenu ul {
+    list-style-type: none;
+}
+
+.headerMenu ul li {
+    float: left;
+}
+
+.headerMenu ul li a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.headerMenu ul li a:hover {
+    color: #565C5E;
+}
+
+.headerContent {
+    float: right;
+    width: 30%;
+    margin-right: 11%;
+    margin-top: 25%;
+}
+
+.headerTitle {
+    float: right;
+    margin-left: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.headerLine {
+    clear: both;
+    width: 25%;
+    height: 3px;
+    margin-left: auto;
+    background-color: #000;
+}
+
+.headerTitleContent {
+    padding-top: 20px;
+    text-align: right;
+    opacity: 0.75;
+}
+
+.headerButton {
+    border: 2px solid #000;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    width: 45%;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.headerButton a {
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.headerButton:hover {
+    border: 2px solid #565C5E;
+}
+
+.headerButton a:hover {
+    color: #565C5E;
+}
+
+.whoAndWhy {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
